@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pamcity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="city_prompt">Choose a City</string>
+
+    <string-array name="country_arrays">
+        <item>Select Country</item>
+        <item>United States</item>
+        <item >Bangladesh</item>
+    </string-array>
+    
+    <string-array name="city_bd_arrays">
+        <item>Select City</item>
+        <item>Dhaka</item>
+        <item>Bogra</item>
+        <item>Sylet</item>
+        <item>Rajshahi</item>
+    </string-array>
+    
+    <string-array name="city_usa_arrays">
+        <item>Select City</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    
+    <string-array name="city_arrays">
+        <item>Select Country first</item>
+     </string-array>
+
+    <string name="title_activity_adselect">AdselectActivity</string>
+    <string name="title_activity_company_detail">CompanyDetail</string>
+
+</resources>

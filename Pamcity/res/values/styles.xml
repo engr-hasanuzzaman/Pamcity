@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+    <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+    
+    <item name="android:action"></item>
+    <item name="android:typeface">serif</item>
+  </style>
+
+  <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    <item name="android:subtitleTextStyle">@style/MyTheme.ActionBar.SubTitleTextStyle</item>
+    <item name="android:background">@color/app_bg</item>
+  </style>
+
+  <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:paddingLeft">0dp</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+  
+  <style name="MyTheme.ActionBar.SubTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+    <item name="android:paddingLeft">200dp</item>
+    <item name="android:text">@string/hello_world</item>
+    <item name="android:textSize">20sp</item>
+      
+  </style>
+  	<style name="Theme.Default" parent="@android:style/Theme"></style>
+    <style name="Theme.NoTitle" parent="@android:style/Theme.NoTitleBar"></style>
+    <style name="Theme.FullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen"></style>
+  
+   <style name="MyTheme.NoTitle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+   </style>  
+   
+</resources>

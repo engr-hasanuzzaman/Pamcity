@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_bg">#ffffffff</color>
+    <color name="app_border">#ffD2D2D2</color>
+    <color name="app_border_light">#55D2D2D2</color>
+    <color name="verde_lima">#FFaaee22</color>
+    <color name="rojo_vivo">#FFE8110F</color>
+    <color name="naranja_resplandeciente">#FFFF6600</color>
+    <color name="amarillo_canario">#FFFFCC00</color>
+
+</resources>

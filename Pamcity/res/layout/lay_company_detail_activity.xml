@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:id="@+id/lay_rel_companydetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/lay_footer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txt_contact_us"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Contact Info" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/app_border" />
+
+            <TextView
+                android:id="@+id/txt_contact_us"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Map / Find Us" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_above="@id/lay_footer"
+            android:background="@color/app_border" />
+
+        <LinearLayout
+            android:id="@+id/lay_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:src="@drawable/ic_launcher" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/app_border" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="About company some speech goes to here and that&apos;s it " />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/lay_header"
+            android:background="@color/app_border" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="2dp"
+            android:layout_above="@+id/lay_footer"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:clickable="true"
+            android:onClick="goForMoreInfo"
+            android:text="View More" />
+        
+        <View
+            android:id="@+id/view3"
+            android:layout_width="3dp"
+            android:layout_height="0dp"
+            android:layout_alignTop="@id/textView1"
+			android:layout_alignBottom="@id/textView1"
+			android:layout_toStartOf="@id/textView1"            
+            android:background="@color/app_border" />
+        <View
+            android:id="@+id/view3"
+            android:layout_width="3dp"
+            android:layout_height="0dp"
+            android:layout_alignTop="@id/textView1"
+			android:layout_alignBottom="@id/textView1"
+			android:layout_toRightOf="@id/textView1"            
+            android:background="@color/app_border" />
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_above="@id/textView1"
+            android:background="@color/app_border" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view1"
+            android:text="Company offers " />
+
+    </RelativeLayout>
+
+</ScrollView>
